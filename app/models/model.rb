@@ -18,6 +18,5 @@ class SuperHero
        $otherwomen  = []
        $otherrobot = []
        
-       if 
     end
 end
