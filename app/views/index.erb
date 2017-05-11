@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Title</title>
+  <!-- links to CSS stylesheet in the public directory -->
+  <link rel="stylesheet" href="index.css" >
+  
+  <style>
+      html, body {
+
+    background:url("http://cdn.wallpapersafari.com/58/96/Lj5aFS.jpg") no-repeat center center fixed;
+    text-align:center;
+      color: red;  
+}
+
+h1 {
+    
+    font-size:30vmax;
+    
+    
+}
+.home-page {
+    margin-left:580px;
+    margin-right: 580px;
+    background-color: white;
+}
+      
+  </style>
+  
+</head>
+<body> 
+
+  <div class="home-page">
+      <h2>what super hero are you</h2>
+      <form method= "POST" action="/results">
+      <p>faivorite super power </p>
+      <input type="radio" value="telepathy">telepathy<br>
+       <input type="radio" value="flight">flight<br>
+       <input type="radio" value="speed">speed<br>
+       <input type="radio" value="gadgets">gadgets<br>
+       <p>what type</p>
+       <input type="radio" value="hero">hero<br>
+       <input type="radio" value="villan">villan<br>
+       <input type="radio" value="anti-hero">anti-hero<br>
+       <input type="radio" value="anti-villan">anti-villan<br> 
+       <p>universe</p>
+       <input type="radio" value="DC">DC <br>
+       <input type="radio" value="MARVEL">MARVEL<br>
+       <input type="radio" value="OTHER">OTHER<br>
+       <p>species</p>
+       <input type="radio" value="human">human<br>
+       <input type="radio" value="alien">alien<br>
+       <input type="radio" value="robot">robot<br>
+       <p>gender</p>
+       <input type="radio" value="male">male<br>
+       <input type="radio" value="female">female<br>
+       <input type="radio" value="robot">robot<br>
+       <p>man made-natural</P>
+       <input type="radio" value="man made super powers">man made super powers<br>
+       <input type="radio" value="natural super powers">natural super powers<br>
+       <input type="submit" value="See what superpower you have!"><br>
+       </form>
+  </div>
+
+</body>
+</html>
+
